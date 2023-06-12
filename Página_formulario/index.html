@@ -7,21 +7,77 @@
     <title>Forumalario</title>
 </head>
 <body>
-    <h1>Forumalario</h1>
-<hr>
+    <h1>#Forumalario#</h1>
+
 <form>
 <label for="campo_nome">Nome:</label>
-<input id="campo_nome" type="text" placeholder="Digite seu nome aqui"> 
-<hr>
+<input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required> 
 
-<label for="campo_sobrenome">Sobrenome:</label>
-<input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui">
-<hr>
+<br>
+
+<br>
+<label for="email_campo">Email:</label>
+<input id="email_campo" type="email" placeholder="Digite Seu Email" required>
+<br>
+
+<br>
 <label for="senha">Senha:</label>
-<input  id="senha" type="password" placeholder="Digite sua senha">
+<input  id="senha" type="password" placeholder="Digite sua senha" required>
+<br>
+
+<br>
+<input type="submit" value="Enviar">
+
 <hr>
+<h2>Aniamal de Estimação</h2>
+<label for="dog">Cachorro</label>
+<input id="dog" type="radio" name="animal">
+<br>
+
+<label for="cat">Gato</label>
+<input id="cat" type="radio" name="animal">
+
+<br>
+<label for="bird">Passarinho</label>
+<input id="bird" type="radio" name="animal">
+
+<hr>
+<h3>Oque você tem em casa?</h3>
+
+<input type="checkbox" name="item_1" id="item_1" value="TV">
+<label for="item_1">TV</label>
+<br>
+<input type="checkbox" name="item_2" id="item_2" value="Cama">
+<label for="item_2">Cama</label>
+<br>
+<input type="checkbox" name="item_3" id="item_3" value="Máquina de Lavar">
+<label for="item_3">Máquina de Lavar</label>
+<br>
+<input type="checkbox" name="item_4" id="item_4" value="Geladeira">
+<label for="item_4">Geladeira</label>
+<br>
+<input type="checkbox" name="item_5" id="item_5" value="Ventilador">
+<label for="item_5">Ventilador</label>
+<br>
+<input type="checkbox" name="item_6" id="item_6" value="Secadora">
+<label for="item_6">Secadora</label>
+<br>
+
+<h1>#Escolha uma cor#</h1>
+<select name="cores">
+
+    <option selected disabled value="">Selecione uma cor</option>
+    <option value="Vermelho">Vermelho</option>
+    <option value="Azul">Azul</option>
+    <option value="Amarelo">Amarelo</option>
+    <option value="Verde">Verde</option>
+
+    <br>
+</select>
+<h2>#digite sua mensagem#</h2>
+ <textarea rows="30" cols="50" placeholder="digite aqui sua mensagem"></textarea>
+
 
 </form>
-<hr>
 </body>
 </html>
